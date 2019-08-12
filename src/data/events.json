@@ -1,0 +1,46 @@
+[
+	{
+		"date": "Monday 26th August",
+		"events": 
+		[
+			{
+				"name": "3D Printing Fashion Accessories",
+				"time": "10.00 am - 11.00 am"
+			},
+			{
+				"name": "Make, Do, Mend",
+				"time": "10.00 am - 02.00 pm"
+			},
+			{
+				"name": "3D Printing Fashion Accessories",
+				"time": "02.00 pm - 03.00 pm"
+			},
+			{
+				"name": "Make, Do, Mend",
+				"time": "04.00 pm - 08.00 pm"
+			}
+		]
+	},
+	{
+		"date": "Monday 26th August",
+		"events": 
+		[
+			{
+				"name": "3D Printing Fashion Accessories",
+				"time": "10.00 am - 11.00 am"
+			},
+			{
+				"name": "Make, Do, Mend",
+				"time": "10.00 am - 02.00 pm"
+			},
+			{
+				"name": "3D Printing Fashion Accessories",
+				"time": "02.00 pm - 03.00 pm"
+			},
+			{
+				"name": "Make, Do, Mend",
+				"time": "04.00 pm - 08.00 pm"
+			}
+		]
+	}
+]

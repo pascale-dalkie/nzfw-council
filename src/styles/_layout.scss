@@ -1,0 +1,124 @@
+div.main {
+  min-height: 100vh;
+}
+
+div.full-height {
+  min-height: 100vh;
+}
+
+a.link-no-style {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.title-row {
+    padding: 15em 5em;
+    color: #ffffff;
+    position: relative;
+
+    h1 {
+      text-shadow: 0px 0px 4px #000000;
+      font-size: 3.5rem;
+    }
+
+    .title-btn {
+      margin-top: 1.3em;
+
+    }
+
+    .title-tagline {
+      font-size: 1.4rem;
+    }
+
+    p {
+      text-shadow: 0px 0px 4px #000000;
+    }
+
+    &:before {
+      content: ' ';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0,0,0,0.65);
+    }
+}
+
+.vertical-center {
+  display: grid;
+  height: 100%;
+  margin: 0;
+  place-items: center center;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.no-margin {
+  margin: 0;
+
+
+  @media screen and (min-width: 768px) {
+    max-width: none;
+  }
+
+  @media screen and (min-width: 576px) {
+    max-width: none;
+  }
+}
+
+.margin-top {
+  margin-top: 2em;
+}
+
+.margin-bottom {
+  margin-bottom: 5em;
+}
+
+.mid-padding {
+  padding: 2em;
+}
+
+.hundred-height {
+  height: 100%;
+}
+
+.row-card {
+  padding: 2.5em 1.8em;
+}
+
+table.table tbody tr td,
+table.table thead tr th,
+table.table thead {
+  border-left: 1px solid $color-light-grey;
+  border-right: 1px solid $color-light-grey;
+  border-top: none;
+  border-bottom: none;
+}
+
+.footer-col {
+  text-align: center;
+
+  a {
+    margin: 0 10px;
+  }
+
+  i {
+    font-size: 1.5rem
+  }
+
+  .social-row {
+    padding: 2em 0;
+  }
+}
+
+footer {
+  padding: 2em 1em;
+}

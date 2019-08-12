@@ -1,0 +1,167 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import "variables";
+
+@import "layout";
+@import "navbar";
+@import "homepage";
+@import "nzfw-history";
+@import "events";
+@import "about";
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+//Typography
+
+h1 {
+	font-weight: 400;
+}
+
+.subtitle {
+	margin: 0.6em 0;
+    font-size: 1.3rem;
+}
+
+.small-text {
+	font-size: 0.6rem;
+}
+
+.mid-text {
+	font-size: 1rem;
+}
+
+.secondary-text {
+	color: $color-secondary;
+}
+
+.grey-text {
+	color: $color-dark-grey;
+}
+
+.white-text {
+	color: #ffffff;
+
+	.form-control, .form-control:focus {
+		color: #ffffff;
+		border-color: #ffffff;
+	}
+
+	.form-control::placeholder {
+		color: #ffffff;
+	}
+}
+
+.blue-text {
+	color: $color-primary;
+}
+
+.center-text {
+	text-align: center;
+
+	&.blue-accent:after {
+		margin: 0 auto;
+	}
+}
+
+.blue-accent {
+	margin-bottom: 40px;
+
+	&:after {
+		content: ' ';
+		display: block;
+		position: relative;
+		bottom: -20px;
+		border-bottom: 3px solid #1058fb;
+		width: 15px;
+	}
+}
+
+.right-text {
+	text-align: right;
+
+	&.blue-accent:after {
+		left: 70%;
+	}
+}
+
+
+// backgrounds
+
+.light-grey-bg {
+  background: $color-light-grey;
+}
+
+.blue-bg {
+	background: $color-secondary;
+
+	.btn {
+		background: #ffffff;
+		color: $color-secondary;
+	}
+
+	.form-control:focus {
+		background: $color-secondary;
+	}
+}
+
+.black-bg {
+	background: #000000;
+
+	.form-control:focus {
+		background: #000000;
+	}
+}
+
+.dark-grey-bg {
+  background: $color-dark-grey;
+}
+
+.white-bg {
+	background: #ffffff;
+}
+
+// Forms
+
+.form-control {
+	border-radius: 0px;
+	border-width: 2px;
+	background: transparent;
+	color: inherit;
+}
+
+.ReactTypeformEmbed {
+	position: static !important;
+	height: 400px !important;
+}
+
+.blue-header {
+	.modal-content {
+		background: $color-primary;
+	}
+
+	button.close {
+		color: #ffffff;
+	}
+}
+
+// Buttons
+
+.btn {
+	border: none;
+    padding: 0.7rem 1.5rem;	
+}
+
+.btn-square {
+	border-radius: 0;
+}
+
+.btn-round {
+	border-radius: 20px;
+	font-size: 1rem;
+}
+
+.btn-primary {
+	background: $color-primary;
+}

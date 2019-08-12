@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{HTTP_HOST} ^central.aucklandlibraries.nz
+RewriteRule ^(.*) http://nzfwaucklandlibraries.freedomain.co.nz/ [P]

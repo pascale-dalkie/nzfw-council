@@ -1,0 +1,87 @@
+#homepage-hero {
+	background: url("../images/planetb.jpg");
+    background-size: cover;
+    background-position: center left;
+}
+
+#events-overview {
+	.subtitle {
+		margin-bottom: 1.8em;
+	}
+}
+
+#newsletter-subscribe {
+	padding: 1.5em 0;
+}
+
+.subscribe-iframe {
+	border: none;
+}
+
+.links-gallery {
+	padding: 5em 0;
+}
+
+.gallery-item {
+  padding: 2em 0;
+}
+
+.gallery-item-image {
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+}
+
+.feature-column {
+	padding: 0;
+}
+
+.feature-text {
+	
+	@extend .light-grey-bg;
+
+	margin: 1.5em 0;
+	padding: 2em;
+}
+
+#lights-runway-image {
+	background: url("../images/lights-runway.jpg");
+	background-position: center;
+    background-size: cover;
+}
+
+#lights-runway-image2 {
+	background: url("../images/lights-runway2.jpg");
+	background-position: center;
+    background-size: cover;
+}
+
+#vogue-image {
+	background: url("../images/vogue-heritage.jpg");
+	background-position: center;
+    background-size: cover;
+}
+
+.events-schedule {
+	padding: 2.5em 0;
+}
+
+.event-table {
+	margin: 2em 0;
+
+	th {
+		font-size: 1.3rem;
+		text-align: center;
+	}
+}
+
+#sustainability-image {
+	background: url("../images/aboutimage.jpg");
+	background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 500px;
+}
+
+
