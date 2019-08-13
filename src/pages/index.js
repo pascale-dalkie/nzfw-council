@@ -51,8 +51,8 @@ const IndexPage = () => (
       <FeatureRow />
       <EventSchedule />
       <div className="text-center margin-bottom">
-        <Link to="/events" className="btn btn-primary btn-round" alt="View NZFW Library Events">
-            View NZFW Library Events
+        <Link to="/events" className="btn btn-primary btn-round" alt="View NZFW library events">
+            View NZFW library events
         </Link>
       </div>
     </Container>

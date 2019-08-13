@@ -7,7 +7,7 @@ import Card from 'react-bootstrap/Card'
 const EventSchedule = () => {
 	return (
 		<Container className="events-schedule">
-		<h2 className="blue-accent center-text">NZFW Events</h2>
+		<h2 className="blue-accent center-text">NZFW events</h2>
 		<h3 className="center-text">Monday 26 August - Sunday 01 September</h3>
 		<Table hover responsive className="event-table d-none d-sm-block">
 		  <thead>
