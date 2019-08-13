@@ -16,7 +16,7 @@ import Button from 'react-bootstrap/Button'
 const IndexPage = () => (
 
   <Layout pageInfo={{ pageName: "index" }}>
-    <SEO title="Auckland City Council Libraries" keywords={[`Libraries`, `NZFW`]} />
+    <SEO title="Auckland Libraries" keywords={[`Libraries`, `NZFW`]} />
     <Container className="no-margin">
       <Row className="title-row" id="homepage-hero">
         <Col md="8">

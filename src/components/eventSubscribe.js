@@ -11,7 +11,7 @@ const EventSubscribe = () => {
 	return (
 		<>
       <Button variant="primary" onClick={handleShow} className="btn-round">
-        Register Now
+        Register now
       </Button>
 
       <Modal show={show} onHide={handleClose} className="blue-header">
