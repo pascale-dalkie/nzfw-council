@@ -26,7 +26,7 @@ const IndexPage = () => (
           <h1>
             Central City Library<br/>Tāmaki Pātaka Kōrero
           </h1>
-          <a className="btn-round btn btn-primary title-btn" href="https://www.aucklandlibraries.govt.nz/Pages/join-the-library.aspx">
+          <a className="btn-round btn btn-primary title-btn" href="https://www.aucklandlibraries.govt.nz/Pages/join-the-library.aspx" alt="JOIN OUR LIBRARY">
             JOIN OUR LIBRARY
           </a>
         </Col>
@@ -51,7 +51,7 @@ const IndexPage = () => (
       <FeatureRow />
       <EventSchedule />
       <div className="text-center margin-bottom">
-        <Link to="/events" className="btn btn-primary btn-round">
+        <Link to="/events" className="btn btn-primary btn-round" alt="View NZFW Library Events">
             View NZFW Library Events
         </Link>
       </div>
