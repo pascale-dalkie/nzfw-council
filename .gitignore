@@ -1,0 +1,12 @@
+.cache/*
+node_modules/*
+public/**
+public/index.html
+public/page-data/404.html/page-data.json
+public/page-data/404/page-data.json
+public/page-data/about/page-data.json
+public/page-data/dev-404-page/page-data.json
+public/page-data/events/page-data.json
+public/page-data/index/page-data.json
+public/page-data/nzfw-history/page-data.json
+public/page-data/page-2/page-data.json
