@@ -1,6 +1,7 @@
 import React from "react"
 import { Row, Col, Container } from "react-bootstrap"
 import Table from 'react-bootstrap/Table'
+import Card from 'react-bootstrap/Card'
 
 
 const EventSchedule = () => {
@@ -8,7 +9,7 @@ const EventSchedule = () => {
 		<Container className="events-schedule">
 		<h2 className="blue-accent center-text">NZFW Events</h2>
 		<h3 className="center-text">Monday 26 August - Sunday 01 September</h3>
-		<Table hover responsive className="event-table">
+		<Table hover responsive className="event-table d-none d-sm-block">
 		  <thead>
 		    <tr>
 		      <th>Mon 26</th>
@@ -207,6 +208,68 @@ const EventSchedule = () => {
 
 		  </tbody>
 		</Table>
+
+		<div className="d-block d-sm-none">
+			<Card>
+			  <Card.Body>
+			  	<h3>Mon 26</h3>
+			  	<p>3D Printing Fashion Accessories<br/>10.00am - 11.00am<br />02.00pm - 03.00pm</p>
+			  	<p>Make, Do, Mend<br />10.00am - 02.00pm<br />04.00pm - 08.00pm</p>
+			  	<p>Lighting Up Lorne<br />06.00pm - 10.00pm</p>
+			  </Card.Body>
+			</Card>
+			<Card>
+			  <Card.Body>
+			  	<h3>Tue 27</h3>
+			  	<p>3D Printing Fashion Accessories<br/>10.00am - 11.00am<br />02.00pm - 03.00pm<br />05.30pm - 06.30pm</p>
+			  	<p>Make, Do, Mend<br />10.00am - 02.00pm</p>
+			  	<p>Speed Dating with Industry Professionals!<br />06.00pm - 07.00pm</p>
+			  	<p>Lighting Up Lorne<br />06.00pm - 10.00pm</p>
+			  </Card.Body>
+			</Card>
+			<Card>
+			  <Card.Body>
+			  	<h3>Wed 28</h3>
+			  	<p>3D Printing Fashion Accessories<br/>10.00am - 11.00am<br />02.00pm - 03.00pm</p>
+			  	<p>Make, Do, Mend<br />10.00am - 02.00pm<br />04.00pm - 08.00pm</p>
+			  	<p>Lighting Up Lorne<br />06.00pm - 10.00pm</p>
+			  </Card.Body>
+			</Card>
+			<Card>
+			  <Card.Body>
+			  	<h3>Thu 29</h3>
+			  	<p>3D Printing Fashion Accessories<br/>10.00am - 11.00am<br />02.00pm - 03.00pm</p>
+			  	<p>Make, Do, Mend<br />10.00am - 02.00pm</p>
+			  	<p>Lighting Up Lorne<br />06.00pm - 10.00pm</p>
+			  </Card.Body>
+			</Card>
+			<Card>
+			  <Card.Body>
+			  	<h3>Fri 30</h3>
+			  	<p>3D Printing Fashion Accessories<br/>10.00am - 11.00am<br />02.00pm - 03.00pm<br />05.30pm - 06.30pm></p>
+			  	<p>Make, Do, Mend<br />10.00am - 02.00pm</p>
+			  	<p>A Very Fashionable Talk<br />12.00pm - 01.00pm</p>
+			  	<p>Lighting Up Lorne<br />06.00pm - 10.00pm</p>
+			  </Card.Body>
+			</Card>
+			<Card>
+			  <Card.Body>
+			  	<h3>Sat 31</h3>
+			  	<p>3D Printing Fashion Accessories<br/>10.00am - 11.00am<br />02.00pm - 03.00pm</p>
+			  	<p>Swap It Like It's Hot 3.0<br />11.00am - 03.00pm</p>
+			  	<p>Lighting Up Lorne<br />06.00pm - 10.00pm</p>
+			  </Card.Body>
+			</Card>
+			<Card>
+			  <Card.Body>
+			  	<h3>Sun 01</h3>
+			  	<p>3D Printing Fashion Accessories<br/>10.00am - 11.00am<br />02.00pm - 03.00pm</p>
+			  	<p>Miniature Fashion - Sew Your Own!<br />11.00am - 03.00pm</p>
+			  	<p>Migrant Zine Collective<br />11.00am - 03.00pm</p>
+			  	<p>Lighting Up Lorne<br />06.00pm - 10.00pm</p>
+			  </Card.Body>
+			</Card>
+		</div>
 	    </Container>
 	)
 
