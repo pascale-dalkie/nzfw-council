@@ -25,8 +25,8 @@ const EventsOverview = () => {
 					Come along to the Central City Library for our 3rd installation of Swap it Like it’s Hot! Simply bring along your pre-loved clothing items, exchange them for tokens, and swap those for brand-new-to-you garments.
 				</span>
 	          </p>
-	            <Link to="/events" className="link-no-style" alt="View all NZFW Library Events">
-	                View all NZFW Library Events
+	            <Link to="/events" className="link-no-style" alt="View all NZFW library events">
+	                View all NZFW library events
 	            </Link>
 	        </Col>
 	        <Col lg="6" className="row-card light-grey-bg">
@@ -49,8 +49,8 @@ const EventsOverview = () => {
 					Come along to the Central City Library and join Auckland’s Migrant Zine Collective in creating a publication based on the themes of sustainability and identity.
 				</span>
 	          </p>
-	            <Link to="/events" className="link-no-style" alt="View all NZFW Library Events">
-	                View all NZFW Library Events
+	            <Link to="/events" className="link-no-style" alt="View all NZFW library events">
+	                View all NZFW library events
 	            </Link>
 	          
 	        </Col>
